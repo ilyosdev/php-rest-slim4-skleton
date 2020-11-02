@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5e81d32-659d-4089-b8be-bcc76dc6c754" name="Default Changelist" comment="" />
+    <list default="true" id="c5e81d32-659d-4089-b8be-bcc76dc6c754" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Controller/BaseController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/BaseRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Service/BaseService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Service/Notes/Base.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Service/Notes/Find.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Middlewares.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Middlewares.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Repositories.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Repositories.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Services.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Home.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/DefaultController.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +26,9 @@
     <execution>
       <executable path="composer" />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -104,6 +121,7 @@
       <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
       <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
       <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/respect/validation" />
     </include_path>
   </component>
   <component name="ProjectId" id="1jirKJ8IGpgZLrGqLXaqcC7itjA" />
@@ -124,6 +142,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -156,6 +175,10 @@
       <TestRunner class="Tests\integration\TeamTest" coverage_engine="PHPDBG" file="$PROJECT_DIR$/tests/integration/TeamTest.php" scope="Class" />
       <method v="2" />
     </configuration>
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Composer Script.post-create-project-cmd" />
@@ -174,7 +197,8 @@
       <option name="presentableId" value="Default" />
       <updated>1604297690808</updated>
       <workItem from="1604297692590" duration="31000" />
-      <workItem from="1604297832644" duration="6465000" />
+      <workItem from="1604297832644" duration="9061000" />
+      <workItem from="1604311302709" duration="4540000" />
     </task>
     <servers />
   </component>
@@ -182,26 +206,50 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="249" y="278" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1604314013295">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="249" y="278" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604314013295" />
     <state x="741" y="433" width="437" height="262" key="ComposerInitDialogKey" timestamp="1604300589267">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="741" y="433" width="437" height="262" key="ComposerInitDialogKey/0.0.1920.1040/1920.316.1366.728@0.0.1920.1040" timestamp="1604300589267" />
-    <state width="1877" height="291" key="GridCell.Tab.0.bottom" timestamp="1604300617394">
+    <state width="1877" height="291" key="GridCell.Tab.0.bottom" timestamp="1604308436921">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.316.1366.728@0.0.1920.1040" timestamp="1604300617394" />
-    <state width="1877" height="291" key="GridCell.Tab.0.center" timestamp="1604300617394">
+    <state width="1877" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.316.1366.728@0.0.1920.1040" timestamp="1604308436921" />
+    <state width="1877" height="291" key="GridCell.Tab.0.center" timestamp="1604308436916">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="291" key="GridCell.Tab.0.center/0.0.1920.1040/1920.316.1366.728@0.0.1920.1040" timestamp="1604300617394" />
-    <state width="1877" height="291" key="GridCell.Tab.0.left" timestamp="1604300617393">
+    <state width="1877" height="291" key="GridCell.Tab.0.center/0.0.1920.1040/1920.316.1366.728@0.0.1920.1040" timestamp="1604308436916" />
+    <state width="1877" height="291" key="GridCell.Tab.0.left" timestamp="1604308436914">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="291" key="GridCell.Tab.0.left/0.0.1920.1040/1920.316.1366.728@0.0.1920.1040" timestamp="1604300617393" />
-    <state width="1877" height="291" key="GridCell.Tab.0.right" timestamp="1604300617394">
+    <state width="1877" height="291" key="GridCell.Tab.0.left/0.0.1920.1040/1920.316.1366.728@0.0.1920.1040" timestamp="1604308436914" />
+    <state width="1877" height="291" key="GridCell.Tab.0.right" timestamp="1604308436918">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="291" key="GridCell.Tab.0.right/0.0.1920.1040/1920.316.1366.728@0.0.1920.1040" timestamp="1604300617394" />
+    <state width="1877" height="291" key="GridCell.Tab.0.right/0.0.1920.1040/1920.316.1366.728@0.0.1920.1040" timestamp="1604308436918" />
+    <state x="269" y="247" key="NewPhpClassDialog" timestamp="1604312891617">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="269" y="247" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604312891617" />
+    <state x="354" y="447" key="NewPhpFileDialog" timestamp="1604313174046">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="354" y="447" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604313174046" />
+    <state x="476" y="165" key="SettingsEditor" timestamp="1604306020920">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="476" y="165" key="SettingsEditor/0.0.1920.1040/1920.316.1366.728@0.0.1920.1040" timestamp="1604306020920" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1604311606906">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1604311606906" />
+    <state x="670" y="260" width="579" height="520" key="find.popup" timestamp="1604311721263">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="670" y="260" width="579" height="520" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604311721263" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604305115299">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

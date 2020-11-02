@@ -1,6 +1,8 @@
 <?php
 
     declare(strict_types=1);
+    $path = isset($_SERVER['SLIM_BASE_PATH']) ? $_SERVER['SLIM_BASE_PATH'] : '';
+    $app->setBasePath($path);
 
     $app->addRoutingMiddleware();
     $app->addBodyParsingMiddleware();

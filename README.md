@@ -98,19 +98,3 @@ $ docker-compose down
 
 - Health Check: `GET /status`
 
-
-## :video_camera: TUTORIAL:
-
-[Develop a RESTful API with PHP and Slim 4.](https://youtu.be/DetK1w65S-k) [:movie_camera: :sound: :es: :argentina:]
-
-
-## :heart: WOULD YOU LIKE TO SUPPORT THIS PROJECT?
-
-You can support this project inviting me a coffee :coffee: :yum: or giving a **star** to this repo :star: :blush:.
-
-[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/maurobonfietti)
-
-
-## :sunglasses: THAT'S IT!
-
-Now go build a cool RESTful API.
